@@ -17,12 +17,15 @@ body, html {
 }
 
 .container {
-    width: 811px;
+    /*width: 811px;
     height: 100%;
     background: #fff;
     margin-left: auto;
     margin-right: auto;
-    display: block;
+    display: block;*/
+    width: 925px;
+    margin: 0 auto;
+    background: red;
     
 }
 
@@ -65,32 +68,39 @@ body, html {
 }*/
 
 .box {
-     border: 5px solid #0094ff;
+    border: 5px solid #0094ff;
     height: 150px;
     background-color: #cccccc;
+    text-align: center;
 }
 
+.links{
+    border: 5px solid #0094ff;
+    margin: 0 auto;
+}
+
+.links li {
+    display: inline-block;
+    font-size: 20px;
+    margin: 20px;
+}
 /*.box h2{background:#0094ff;
         color:white;
         padding:10px;}*/
 
-nav li{
-    float: right;
-    margin-right: 10px;
-    font-size: 20px;
-    color: #a6a6a6;
-    list-style-type: none;
+nav a{
+    color: blue;
+}
 
+nav li {
+    list-style-type: none;
 
 }
 
-nav ul{
-    
-    overflow: hidden;
-    display: inline-block;
-    float: right;
-    
-
+nav ul {
+    border: 5px solid black;
+    list-style-type: none;
+    text-align: center;
 } 
 
 /*nav{
@@ -130,5 +140,5 @@ nav a{
     height: 400px;
     margin-right: auto;
     margin-left: auto;
-    background-color: black;
+    
 }
