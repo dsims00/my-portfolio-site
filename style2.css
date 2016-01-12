@@ -36,7 +36,11 @@ nav {
     top: 110px;
     width: 79px;
     z-index: 1000;
+}
 
+.socialmedia img {
+    height: 55px;
+    width: 55px;
 }
 
 footer {
