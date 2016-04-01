@@ -1,0 +1,56 @@
+
+.container{
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.header {
+	background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px; 
+}
+
+.section {
+    width:350px;
+    float:left;
+    padding:10px; 
+}
+
+.socialmedia {
+    background: #FFFFFF;
+    /*height: 100px;*/
+    padding: 8px;
+    position: fixed;
+    right: 0 !important;
+    top: 110px;
+    width: 79px;
+    z-index: 1000;
+}
+
+.socialmedia img {
+    height: 55px;
+    width: 55px;
+}
+
+footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
+
+ul li {
+    list-style-type: none;
+}
